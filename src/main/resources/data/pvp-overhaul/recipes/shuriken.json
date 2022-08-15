@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "tag": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " I ",
+    "I I",
+    " I "
+  ],
+  "result": {
+    "item": "pvp-overhaul:shuriken",
+    "count": 8
+  }
+}

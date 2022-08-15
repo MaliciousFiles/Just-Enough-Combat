@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.maliciousfiles.pvpoverhaul.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "common.ArmorItemMixin",
+    "common.DrinkableItemMixin",
+    "common.EnchantmentHelperMixin",
+    "common.EnchantmentMixin",
+    "common.EnchantmentScreenHandlerMixin",
+    "common.EntityDamageEntityMixin",
+    "common.EntityMixin",
+    "common.ItemStackMixin",
+    "common.LivingEntityMixin",
+    "common.PlayerEntityMixin",
+    "common.ServerPlayNetworkHandlerMixin",
+    "vengeance_totem.LivingEntityMixin",
+    "vengeance_totem.PlayerEntityMixin",
+    "vengeance_totem.ServerPlayerEntityMixin"
+  ],
+  "client": [
+    "client.ClientPlayNetworkHandlerMixin",
+    "client.GameRendererMixin",
+    "client.InGameHudMixin",
+    "client.LivingEntityRendererMixin",
+    "client.MinecraftClientMixin",
+    "client.PlayerEntityRendererMixin",
+    "client.ScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

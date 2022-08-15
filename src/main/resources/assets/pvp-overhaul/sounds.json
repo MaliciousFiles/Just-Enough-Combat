@@ -1,0 +1,8 @@
+{
+  "item.vengeance_totem.use": {
+    "sounds": [
+      "pvp-overhaul:item/vengeance_totem/use_totem"
+    ],
+    "subtitle": "subtitles.item.vengeance_totem.use"
+  }
+}

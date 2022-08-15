@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "pvp-overhaul",
+  "version": "${version}",
+  "name": "PvP Overhaul",
+  "description": "A Fabric mod that overhauls Minecraft PvP, introducing informal classes such as in Terraria, and offering a wide variety of builds to make combat more interesting.",
+  "authors": [
+    "MaliciousFiles"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pvp-overhaul/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.maliciousfiles.pvpoverhaul.client.PvPOverhaulClient"
+    ],
+    "main": [
+      "io.github.maliciousfiles.pvpoverhaul.PvPOverhaul"
+    ]
+  },
+  "mixins": [
+    "pvp-overhaul.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19.2",
+    "java": ">=17"
+  }
+}
