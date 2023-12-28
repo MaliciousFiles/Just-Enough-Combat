@@ -1,0 +1,59 @@
+{
+  "attribute.name.generic.attack_reach": "Attack Reach",
+  "attribute.name.generic.duel_wielding_time": "Duel Wielding Time",
+
+  "subtitles.item.vengeance_totem.use": "Totem of Vengeance activates",
+
+  "itemGroup.pvp-overhaul.general": "PvP Overhaul",
+
+  "item.modifiers.mount": "When Mounted:",
+  "item.modifiers.mount.text": "based on speed",
+
+  "item.pvp-overhaul.vengeance_totem": "Totem of Vengeance",
+  "item.pvp-overhaul.lance": "Lance",
+  "item.pvp-overhaul.shuriken": "Shuriken",
+
+  "item.pvp-overhaul.cloth_helmet": "Cloth Hood",
+  "item.pvp-overhaul.cloth_chestplate": "Cloth Robe",
+  "item.pvp-overhaul.cloth_leggings": "Cloth Pants",
+  "item.pvp-overhaul.cloth_boots": "Cloth Boots",
+  "item_bonus.cloth.title": "Comfy",
+  "item_bonus.cloth.description": "Built for mobility and speed",
+  "set_bonus.cloth.title": "Like the Wind",
+  "set_bonus.cloth.description": "The flowing fabric guides your movement for great speed",
+
+  "item.pvp-overhaul.carcass_helmet": "Carcass Skull",
+  "item.pvp-overhaul.carcass_chestplate": "Carcass Chest",
+  "item.pvp-overhaul.carcass_leggings": "Carcass Legs",
+  "item.pvp-overhaul.carcass_boots": "Carcass Feet",
+  "item_bonus.carcass.title": "Brutal",
+  "item_bonus.carcass.description": "The raw gore frenzies your attacks to greater damage",
+  "set_bonus.carcass.title": "Desiccated",
+  "set_bonus.carcass.description": "Your touch turns your enemies' stomachs",
+
+  "item.pvp-overhaul.bone_helmet": "Skull Helmet",
+  "item.pvp-overhaul.bone_chestplate": "Skeleton Rib Cage",
+  "item.pvp-overhaul.bone_leggings": "Skeleton Legs",
+  "item.pvp-overhaul.bone_boots": "Skeleton Feet",
+  "set_bonus.bone.title": "Spooky & Scary",
+  "set_bonus.bone.description": "From a distance, you're indistinguishable from a skeleton",
+
+  "set_bonus.leather.title": "Hardened",
+  "set_bonus.leather.description": "The tough leather grants more protection",
+
+  "set_bonus.chain.title": "Knighted",
+  "set_bonus.chain.description": "Your resplendent armor imbues your strikes with extra power while on a steed",
+
+  "item.pvp-overhaul.studded_leather_helmet": "Studded Leather Helmet",
+  "item.pvp-overhaul.studded_leather_chestplate": "Studded Leather Chestplate",
+  "item.pvp-overhaul.studded_leather_leggings": "Studded Leather Leggings",
+  "item.pvp-overhaul.studded_leather_boots": "Studded Leather Boots",
+  "item_bonus.studded_leather.title": "Tough Bits",
+  "item_bonus.studded_leather.description": "When hit, attacking weapon has a chance to take extra damage",
+
+  "death.attack.vengeance": "%1$s felt %2$s's vengeance",
+  "death.attack.vengeance.item": "%1$s felt %2$s vengeance with %3$s",
+  "death.time.vengeance": "%1$s ran out of time",
+  "death.attack.shuriken": "%1$s discovered %2$s's ninja skills",
+  "death.attack.shuriken.item": "%1$s discovered %2$s's ninja skills with %3$s"
+}
