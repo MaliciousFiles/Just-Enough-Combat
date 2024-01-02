@@ -1,4 +1,4 @@
-package io.github.maliciousfiles.jec.mixins;
+package io.github.maliciousfiles.jec.mixin.client;
 
 import com.google.common.collect.ImmutableMap;
 import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
@@ -11,7 +11,8 @@ import com.mojang.blaze3d.vertex.VertexFormat;
 import com.mojang.blaze3d.vertex.VertexFormatElement;
 import io.github.maliciousfiles.jec.JEC;
 import io.github.maliciousfiles.jec.Shader;
-import io.github.maliciousfiles.jec.items.armor.ArmorSets;
+import io.github.maliciousfiles.jec.item.armor.ArmorSets;
+import io.github.maliciousfiles.jec.item.armor.IArmorable;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.renderer.ShaderInstance;
@@ -38,7 +39,7 @@ public class MixinGuiGraphics {
     ResourceLocation justEnoughCombat$prevTexture = null;
     @Inject(method="blitSprite(Lnet/minecraft/resources/ResourceLocation;IIII)V", at=@At("HEAD"))
     private void checkTexture(ResourceLocation texture, int left, int top, int width, int height, CallbackInfo ci) {
-        if (Minecraft.getInstance().player == null || ArmorSets.hasSetBonus(Minecraft.getInstance().player)) return;
+        if (Minecraft.getInstance().player == null || ((IArmorable) Minecraft.getInstance().player).jec$getSetBonus() == null) return;
 
         boolean isArmor = justEnoughCombat$isArmor(texture);
         if (justEnoughCombat$isArmor(justEnoughCombat$prevTexture) != isArmor) {
